@@ -1,0 +1,222 @@
+1. The pairs of equations x+2y-5 = 0 and -4x-8y+20=0 have:
+
+(a) Unique solution
+
+(b) Exactly two solutions
+
+(c) Infinitely many solutions
+
+(d) No solution
+
+Answer: (c) Infinitely many solutions
+2. If a pair of linear equations is consistent, then the lines are:
+
+(a) Parallel
+
+(b) Always coincident
+
+(c) Always intersecting
+
+(d) Intersecting or coincident
+
+Answer: (d) Intersecting or coincident
+3. The pairs of equations 9x + 3y + 12 = 0 and 18x + 6y + 26 = 0 have
+
+(a) Unique solution
+
+(b) Exactly two solutions
+
+(c) Infinitely many solutions
+
+(d) No solution
+
+Answer: (d) No solution
+4. If the lines 3x+2ky – 2 = 0 and 2x+5y+1 = 0 are parallel, then what is the value of k?
+
+(a) 4/15
+
+(b) 15/4
+
+(c) ⅘
+
+(d) 5/4
+
+Answer: (b) 15/4
+5. If one equation of a pair of dependent linear equations is -3x+5y-2=0. The second equation will be:
+
+(a) -6x+10y-4=0
+
+(b) 6x-10y-4=0
+
+(c) 6x+10y-4=0
+
+(d) -6x+10y+4=0
+
+Answer: (a) -6x+10y-4=0
+6.The solution of the equations x-y=2 and x+y=4 is:
+
+(a) 3 and 1
+
+(b) 4 and 3
+
+(c) 5 and 1
+
+(d) -1 and -3
+
+Answer: (a) 3 and 1
+7. A fraction becomes 1/3 when 1 is subtracted from the numerator and it becomes 1/4 when 8 is added to its denominator. The fraction obtained is:
+
+(a) 3/12
+
+(b) 4/12
+
+(c) 5/12
+
+(d) 7/12
+
+Answer: (c) 5/12
+8. The solution of 4/x+3y=14 and 3/x-4y=23 is:
+
+(a) ⅕ and -2
+
+(b) ⅓ and ½
+
+(c) 3 and ½
+
+(d) 2 and ⅓
+
+Answer: (a) ⅕ and -2
+9. Ritu can row downstream 20 km in 2 hours, and upstream 4 km in 2 hours. Her speed of rowing in still water and the speed of the current is:
+
+(a) 6km/hr and 3km/hr
+
+(b) 7km/hr and 4km/hr
+
+(c) 6km/hr and 4km/hr
+
+(d) 10km/hr and 6km/hr
+
+Answer: (c) 6km/hr and 4km/hr
+10. The angles of cyclic quadrilaterals ABCD are: A = (6x+10), B=(5x)°, C = (x+y)° and D=(3y-10)°. The value of x and y is:
+
+(a) x=20° and y = 10°
+
+(b) x=20° and y = 30°
+
+(c) x=44° and y=15°
+
+(d) x=15° and y=15°
+
+Answer: (b) x=20° and y = 30°
+11. The pair of equations x = a and y = b graphically represents lines which are
+
+(a) parallel 
+
+(b) intersecting at (b, a)
+
+(c) coincident 
+
+(d) intersecting at (a, b)
+
+Answer: (d) intersecting at (a, b)
+12. The pair of equations 5x – 15y = 8 and 3x – 9y = 24/5 has
+
+(a) one solution 
+
+(b) two solutions 
+
+(c) infinitely many solutions
+
+(d) no solution
+
+Answer: (c) infinitely many solutions
+13. The pair of equations x + 2y + 5 = 0 and –3x – 6y + 1 = 0 have
+
+(a) a unique solution 
+
+(b) exactly two solutions
+
+(c) infinitely many solutions 
+
+(d) no solution
+
+Answer: (d) no solution
+14. The value of c for which the pair of equations cx – y = 2 and 6x – 2y = 3 will have infinitely many solutions is
+
+(a) 3 
+
+(b) -3 
+
+(c) -12 
+
+(d) no value
+
+Answer: (d) no value
+15. If the lines representing the pair of linear equations a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 are coincident, then
+
+(a) a1/a2 = b1/b2
+
+(b) a1/a2 = b1/b2 = c1/c2
+
+(c) a1/a2 ≠ b1/b2
+
+(d) a1/a2 = b1/b2 ≠ c1/c2
+
+Answer: (b) a1/a2 = b1/b2 = c1/c2
+16. A pair of linear equations which has a unique solution x = 2, y = -3 is
+
+(a) x + y = -1; 2x – 3y = -5
+
+(b) 2x + 5y = -11; 4x + 10y = -22
+
+(c) 2x – y = 1; 3x + 2y = 0
+
+(d) x – 4y – 14 = 0; 5x – y – 13 = 0
+
+Answer: (b) 2x + 5y = -11; 4x + 10y = -22
+17. The father’s age is six times his son’s age. Four years hence, the age of the father will be four times his son’s age. The present ages, in years, of the son and the father are, respectively
+
+(a) 4 and 24 
+
+(b) 5 and 30
+
+(c) 6 and 36 
+
+(d) 3 and 24
+
+Answer: (c) 6 and 36
+18. If the pair of linear equations has a unique solution, then the lines representing these equations will 
+
+(a) coincide
+
+(b) intersect at one point
+
+(c) parallel to each other
+
+(d) parallel to x-axis
+
+Answer: (b) intersect at one point
+
+19. Which of the following method(s) is/are used to find the solution of a pair of linear equations algebraically?
+
+(a) Substitution Method
+
+(b) Elimination Method
+
+(c) Cross- multiplication Method
+
+(d) All the above
+
+Answer: (d) All the above
+
+20. The graphical representation of a pair of equations 4x + 3y – 1 = 5 and 12x + 9y = 15 will be
+
+(a) parallel lines
+
+(b) coincident lines
+
+(c) intersecting lines
+
+(d) perpendicular lines
+
+Answer: (a) parallel lines

@@ -1,0 +1,220 @@
+1. The probability of event equal to zero is called;
+
+(a) Unsure event
+
+(b) Sure Event
+
+(c) Impossible event
+
+(d) Independent event
+
+Answer: (c) Impossible event
+2. The probability that cannot exist among the following:
+
+(a) ⅔
+
+(b) -1.5
+
+(c) 15%
+
+(d) 0.7
+
+Answer: (b) -1.5
+3. If P(E) = 0.07, then what is the probability of ‘not E’?
+
+(a) 0.93
+
+(b) 0.95
+
+(c) 0.89
+
+(d) 0.90
+
+Answer: (a) 0.93
+4. A bag has 3 red balls and 5 green balls. If we take a ball from the bag, then what is the probability of getting red balls only?
+
+(a) 3
+
+(b) 8
+
+(c) ⅜
+
+(d) 8/3
+
+Answer: (c) ⅜
+5. A bag has 5 white marbles, 8 red marbles and 4 purple marbles. If we take a marble randomly, then what is the probability of not getting purple marble?
+
+(a) 0.5
+
+(b) 0.66
+
+(c) 0.08
+
+(d) 0.77
+
+Answer: (d) 0.77
+6. A dice is thrown in the air. The probability of getting odd numbers is
+
+(a) ½
+
+(b) 3/2
+
+(c) 3
+
+(d) 4
+
+Answer: (a) ½
+7. If we throw two coins in the air, then the probability of getting both tails will be:
+
+(a) ½
+
+(b) ¼
+
+(c) 2
+
+(d) 4
+
+Answer: (b) ¼
+8. If two dice are thrown in the air, the probability of getting sum as 3 will be
+
+(a) 2/18
+
+(b) 3/18
+
+(c) 1/18
+
+(d) 1/36
+
+Answer: (c) 1/18
+9. A card is drawn from the set of 52 cards. Find the probability of getting a queen card.
+
+(a) 1/26
+
+(b) 1/13
+
+(c) 4/53
+
+(d) 4/13
+
+Answer: (b) 1/13
+10. A fish tank has 5 male fish and 8 female fish. The probability of fish taken out is a male fish:
+
+(a) 5/8
+
+(b) 5/13
+
+(c) 13/5
+
+(d) 5
+
+Answer: (b) 5/13
+11. The sum of the probabilities of all the elementary events of an experiment is
+
+(a) 0.5
+
+(b) 1
+
+(c) 2
+
+(d) 1.5
+
+Answer: (b) 1
+12. A card is selected at random from a well shuffled deck of 52 playing cards. The probability of its being a face card is
+
+(a) 3/13
+
+(b) 4/13
+
+(c) 6/13
+
+(d) 9/13
+
+Answer: (a) 3/13
+13. If an event cannot occur, then its probability is
+
+(a) 1 
+
+(b) 3/4 
+
+(c) 1/2
+
+(d) 0
+
+Answer: (d) 0
+14. An event is very unlikely to happen. Its probability is closest to
+
+(a) 0.0001 
+
+(b) 0.001 
+
+(c) 0.01 
+
+(d) 0.1
+
+Answer: (a) 0.0001
+15. If P(A) denotes the probability of an event A, then
+
+(a) P(A) < 0 
+
+(b) P(A) > 1 
+
+(c) 0 ≤ P(A) ≤ 1 
+
+(d) –1 ≤ P(A) ≤ 1
+
+Answer: (c) 0 ≤ P(A) ≤ 1
+16. The probability that a non leap year selected at random will contain 53 Sundays is
+
+(a) 1/7
+
+(b) 2/7
+
+(c) 3/7
+
+(d) 5/7
+
+Answer: (a) 1/7
+17. If the probability of an event is p, the probability of its complementary event will be
+
+(a) p – 1 
+
+(b) p 
+
+(c) 1 – p 
+
+(d) 1 – 1/p
+
+Answer: (c) 1 – p
+18. A card is drawn from a deck of 52 cards. The event E is that card is not an ace of hearts. The number of outcomes favourable to E is
+
+(a) 4 
+
+(b) 13 
+
+(c) 48 
+
+(d) 51
+
+Answer: (d) 51
+19. The probability of getting a bad egg in a lot of 400 is 0.035. The number of bad eggs in the lot is
+
+(a) 7 
+
+(b) 14 
+
+(c) 21 
+
+(d) 28
+
+Answer: (b) 14
+20. Two players, Sangeeta and Reshma, play a tennis match. It is known that the probability of Sangeeta winning the match is 0.62. The probability of Reshma winning the match is
+
+(a) 0.62
+
+(b) 0.38
+
+(c) 0.58
+
+(d) 0.42
+
+Answer: (b) 0.38
