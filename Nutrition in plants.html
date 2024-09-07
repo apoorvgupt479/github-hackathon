@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathematical-mcq</title>
+    <script>
+        function Check(){
+            var x=0;
+            if(document.getElementById('corrected1').checked)
+            {
+                x++;
+            }
+            if(document.getElementById('corrected2').checked){
+                x++;
+            }
+            if(document.getElementById('corrected3').checked){
+                x++;
+            }
+            if(document.getElementById('corrected4').checked){
+                x++;
+            }
+            if(document.getElementById('corrected5').checked){
+                x++;
+            }
+            document.write("your score is:"+x);
+        }
+    </script>
+</head>
+<body>
+    <h1>Science Quiz</h1>
+    <h2>Nutrition in Plants</h2>
+    <form action="" name="frm">
+    <fieldset>
+        <p>1.Which bacteria convert atmospheric nitrogen into soluble form?</p>
+        <input type="radio" name="q1" id="corrected1">Rhizobium<br>
+        <input type="radio" name="q1" >Spirillum<br>
+        <input type="radio" name="q1"> Lactobacillus<br>
+        <input type="radio" name="q1">  Methanogen
+        </fieldset>
+    <fieldset>
+        <p>2.Chlorophyll is present inside the</p>
+        <input type="radio" name="q2" >Stroma<br>
+        <input type="radio" name="q2"  id="corrected2">  Thylakoids<br>
+        <input type="radio" name="q2">hypodermis<br>
+        <input type="radio" name="q2"> granna
+    </fieldset>
+    <fieldset>
+        <p>3. How does photosynthesis help to maintain the percentage of oxygen and carbon dioxide in the atmosphere?</p>
+        <input type="radio" name="q3" >By giving off carbon dioxide and absorbing oxygen.<br>
+        <input type="radio" name="q3" id="corrected3">  By giving off oxygen and absorbing carbon dioxide.<br>
+        <input type="radio" name="q3"> By releasing oxygen and carbon dioxide.<br>
+        <input type="radio" name="q3">By absorbing oxygen and carbon dioxide.
+    </fieldset>
+    <fieldset>
+        <p>4.Which structure in a green plant controls the opening and closing of stomata?</p>
+        <input type="radio" name="q4" id="corrected4">Guard cell<br>
+        <input type="radio" name="q4" >Mesophyll<br>
+        <input type="radio" name="q4"  >Phloem<br>
+        <input type="radio" name="q4"> Xylem
+    </fieldset>
+    <fieldset>
+    <p>5.Chlorophyll is found in oval-shaped structures called as </p>
+    <input type="radio" name="q5" >stomata    <br>
+    <input type="radio" name="q5" > stoma<br>
+    <input type="radio" name="q5" id="corrected5">chloroplast <br>
+    <input type="radio" name="q5"> centrioles
+    </fieldset>
+    <button onClick="Check()">Submit</button>
+    </form> 
+</body>
+</html>
