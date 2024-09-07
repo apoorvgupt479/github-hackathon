@@ -27,4 +27,15 @@ header .navigation-text {
     color: white;
     text-decoration: none;
 }
-  
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+}

@@ -1,0 +1,36 @@
+/* General styling for dark theme */
+body {
+    background-color: #1e1e1e;
+    color: #c9c9c9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #4CAF50;
+}
