@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/tictactoe.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="product-name">LearnHub</h1>
+            <ul class="navigation">
+                <li class="navigation-item"><a href="/home" class="navigation-text">Home</a></li>
+                <!-- <li class="navigation-item"><a href="" class="navigation-text">Courses</a></li> -->
+                <li class="navigation-item"><a href="/aboutus" class="navigation-text">About Us</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-text">Contact</a></li>
+                        <img src="https://imgs.search.brave.com/IWqRZpiAse9xKnvnOfBiTLYyThdE26j0R-o2JydFo9A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNS8x/MC8wNS8yMi8zNy9i/bGFuay1wcm9maWxl/LXBpY3R1cmUtOTcz/NDYwXzY0MC5wbmc"
+                            alt="Profile" class="profile-image" style="clip-path: circle();"></span>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="gameContainer">
+        <h1>Tic Tac Toe</h1>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button class="btn" id="restartBtn">Restart</button>
+    </div>
+    <div id="scoreContainer">
+        <h3 id="scoreTitle">Score Board</h3>
+        <div id="scoreBoard">
+            <div class="score" cellIndex="0">X</div>
+            <div class="score" cellIndex="1" id="Xscore">0</div>
+            <div class="score" cellIndex="2">O</div>
+            <div class="score" cellIndex="3" id="Oscore">0</div>
+        </div>
+        <button class="btn" id="resetBtn">Reset</button>
+    </div>
+    <footer>
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+        <ul class="policy-container">
+            <li class="policy-item"><a href="#" class="policy-text">Privacy Policy</a></li>
+            <li class="policy-item"><a href="#" class="policy-text">Terms of Use</a></li>
+        </ul>
+    </footer>
+    <script src="/static/js/tictactoe.js"></script>
+</body>
+</html>

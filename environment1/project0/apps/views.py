@@ -83,5 +83,5 @@ def logout_page(request):
     logout(request)
     return redirect('login')
 
-def wordle(request):
-    return render(request, 'games/wordle.html')
+def tictactoe(request):
+    return render(request, 'games/tictactoe.html')
