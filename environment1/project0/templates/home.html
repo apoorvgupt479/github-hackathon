@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="static/css/hero.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Copse&family=Dancing+Script:wght@400..700&family=Klee+One:wght@400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+CL:wght@100..400&family=Playwrite+CU:wght@300&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+            <h1 class="product-name">LearnHub</h1>
+            <ul class="navigation">
+                <li class="navigation-item"><a href="/home" class="navigation-text">Home</a></li>
+                <li class="navigation-item"><a href="/aboutus" class="navigation-text">About Us</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-text">Contact</a></li>
+                        <img src="https://imgs.search.brave.com/IWqRZpiAse9xKnvnOfBiTLYyThdE26j0R-o2JydFo9A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNS8x/MC8wNS8yMi8zNy9i/bGFuay1wcm9maWxl/LXBpY3R1cmUtOTcz/NDYwXzY0MC5wbmc"
+                            alt="Profile" class="profile-image" style="clip-path: circle();"></span>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Welcome</h1>
-    {% comment %} {% if user.is_authenticated %} {% endcomment %}
-    <h2>Hello {{fname}}</h2>
-    <a href="{% url 'signout' %}">Logout</a>
+    <button type="submit"><a href="/logout">Log Out</a></button>
     
     
 </body>
