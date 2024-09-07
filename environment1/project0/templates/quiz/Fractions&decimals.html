@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathematical-mcq</title>
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <script>
+        function Check(){
+            var x=0;
+            if(document.getElementById('corrected1').checked)
+            {
+                x++;
+            }
+            if(document.getElementById('corrected2').checked){
+                x++;
+            }
+            if(document.getElementById('corrected3').checked){
+                x++;
+            }
+            if(document.getElementById('corrected4').checked){
+                x++;
+            }
+            if(document.getElementById('corrected5').checked){
+                x++;
+            }
+            document.write("your score is:"+x);
+        }
+    </script>
+</head>
+<body>
+    <h1>Maths quiz</h1>
+    <h2>Fractions and Decimals</h2>
+    <form action="" name="frm">
+    <fieldset>
+        <p>1.(1/2)x(1/5)=</p>
+        
+        <input type="radio" name="q1" >1/7<br>
+        <input type="radio" name="q1" id="corrected1">1/10<br>
+        <input type="radio" name="q1">5/2<br>
+        <input type="radio" name="q1">2/5
+        </fieldset>
+    <fieldset>
+        <p>2.Find the area of rectangle whose length is 6.7 cm and breadth is 2 cm.</p>
+        <input type="radio" name="q2" >13 cm<sup>2</sup><br>
+        <input type="radio" name="q2" id="corrected2">13.4 cm<sup>2</sup><br>
+        <input type="radio" name="q2">13.8 cm<sup>2</sup><br>
+        <input type="radio" name="q2">14 cm<sup>2</sup>
+    </fieldset>
+    <fieldset>
+        <p>What are fractions with different denominators called?</p>
+        <input type="radio" name="q3" >Like<br>
+        <input type="radio" name="q3" id="corrected3">Unlike<br>
+        <input type="radio" name="q3">Proper<br>
+        <input type="radio" name="q3">Improper
+    </fieldset>
+    <fieldset>
+        <p>4.Which of the following is a proper fraction?</p>
+        <input type="radio" name="q4" > 28/15<br>
+        <input type="radio" name="q4" id="corrected4">21/23 <br>
+        <input type="radio" name="q4" > 16/7<br>
+        <input type="radio" name="q4"> 34/3
+    </fieldset>
+    <fieldset>
+    <p>What should be added to 21/27  to make it 26/27 ?</p>
+    <input type="radio" name="q5" >  26/27 <br>
+    <input type="radio" name="q5" >  6/27<br>
+    <input type="radio" name="q5" id="corrected5"> 5/27<br>
+    <input type="radio" name="q5"> 7/27
+    </fieldset>
+    <button onClick="Check()">Submit</button>
+    </form> 
+</body>
+</html>

@@ -85,3 +85,26 @@ def logout_page(request):
 
 def tictactoe(request):
     return render(request, 'games/tictactoe.html')
+def memory(request):
+    return render(request, 'games/memory.html')
+
+def datahandling(request):
+    return render(request, 'quiz/Datahandling.html')
+def fractionsdecimals(request):
+    return render(request, 'quiz/Fractions&decimals.html')
+def heat(request):
+    return render(request, 'quiz/Heat.html')
+def integers(request):
+    return render(request, 'quiz/Integers.html')
+def lineangles(request):
+    return render(request, 'quiz/Line&angles.html')
+def nutritioninanimals(request):
+    return render(request, 'quiz/NutritioninAnimals.html')
+def simpleequations(request):
+    return render(request, 'quiz/SimpleEquations.html')
+def nutritioninplants(request):
+    return render(request, 'quiz/NutritioninPlants.html')
+def fibretofabric(request):
+    return render(request, 'quiz/FibretoFabric.html')
+def acidsbasessalts(request):
+    return render(request, 'quiz/AcidsBasesSalts.html')
