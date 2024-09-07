@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>science-mcq</title>
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <script>
+        function Check(){
+            var x=0;
+            if(document.getElementById('corrected1').checked)
+            {
+                x++;
+            }
+            if(document.getElementById('corrected2').checked){
+                x++;
+            }
+            if(document.getElementById('corrected3').checked){
+                x++;
+            }
+            if(document.getElementById('corrected4').checked){
+                x++;
+            }
+            if(document.getElementById('corrected5').checked){
+                x++;
+            }
+            document.write("your score is:"+x);
+        }
+    </script>
+</head>
+<body>
+    <h1>Science quiz</h1>
+    <h2>Nutrition in Animals</h2>
+    <form action="" name="frm">
+    <fieldset>
+        <p>1. Which of the following is a insulator</p>
+        
+        <input type="radio" name="q1" >Graphite<br>
+        <input type="radio" name="q1" id="corrected1">Air<br>
+        <input type="radio" name="q1"> Aluminium rod<br>
+        <input type="radio" name="q1">Copper rod
+        </fieldset>
+    <fieldset>
+        <p>2. Which of the following is the best conductor of heat?</p>
+        <input type="radio" name="q2" >Water vapour<br>
+        <input type="radio" name="q2" id="corrected2">Metals<br>
+        <input type="radio" name="q2">Alcohol<br>
+        <input type="radio" name="q2">Water
+    </fieldset>
+    <fieldset>
+        <p>3. Heat of sun reaches to earth by</p>
+        <input type="radio" name="q3" id="corrected3"> Radiation<br>
+        <input type="radio" name="q3" >Conduction<br>
+        <input type="radio" name="q3"> Through air<br>
+        <input type="radio" name="q3" >Convection
+    </fieldset>
+    <fieldset>
+        <p>4. During the night</p>
+        <input type="radio" name="q4" > Sea water heats up<br>
+        <input type="radio" name="q4" > Land heats up<br>
+        <input type="radio" name="q4" id="corrected4"> Land cools more quickly than the sea<br>
+        <input type="radio" name="q4" >Sea cools quickly than the land
+    </fieldset>
+    <fieldset>
+    <p>5. Mercury is generally used in thermometer because it has a</p>
+    <input type="radio" name="q5" >  high fluidity<br>
+    <input type="radio" name="q5" >high density<br>
+    <input type="radio" name="q5" id="corrected5" >high conductivity<br>
+    <input type="radio" name="q5"> high specific heat
+    </fieldset>
+    <button onClick="Check()">Submit</button>
+    </form> 
+</body>
+</html>

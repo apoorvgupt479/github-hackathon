@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>science-mcq</title>
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <script>
+        function Check(){
+            var x=0;
+            if(document.getElementById('corrected1').checked)
+            {
+                x++;
+            }
+            if(document.getElementById('corrected2').checked){
+                x++;
+            }
+            if(document.getElementById('corrected3').checked){
+                x++;
+            }
+            if(document.getElementById('corrected4').checked){
+                x++;
+            }
+            if(document.getElementById('corrected5').checked){
+                x++;
+            }
+            document.write("your score is:"+x);
+        }
+    </script>
+</head>
+<body>
+    <h1>Science quiz</h1>
+    <h2>Nutrition in Animals</h2>
+    <form action="" name="frm">
+    <fieldset>
+        <p>1. Mode of nutrition in amoeba is</p>
+        
+        <input type="radio" name="q1" >Herbivores<br>
+        <input type="radio" name="q1" id="corrected1">Holozoic<br>
+        <input type="radio" name="q1">Omnivores<br>
+        <input type="radio" name="q1">Autotrophic
+        </fieldset>
+    <fieldset>
+        <p>2. Bile juice is secreted by which part of digestive system.</p>
+        <input type="radio" name="q2" >Small Intestine<br>
+        <input type="radio" name="q2" id="corrected2">Liver<br>
+        <input type="radio" name="q2">Pituitary gland<br>
+        <input type="radio" name="q2">Digestive gland
+    </fieldset>
+    <fieldset>
+        <p>3. Saliva is released from</p>
+        <input type="radio" name="q3" >Pinus gland<br>
+        <input type="radio" name="q3" >Thyroid gland<br>
+        <input type="radio" name="q3">Adrenal gland<br>
+        <input type="radio" name="q3" id="corrected3">Salivary gland
+    </fieldset>
+    <fieldset>
+        <p>4. An example of heterotrophic organism which can synthesise food</p>
+        <input type="radio" name="q4" >Paramecium<br>
+        <input type="radio" name="q4" id="corrected4">Euglena<br>
+        <input type="radio" name="q4" >Amoeba<br>
+        <input type="radio" name="q4">Hydra
+    </fieldset>
+    <fieldset>
+    <p>5. The process of breakdown of food particles into small pieces is called _______.</p>
+    <input type="radio" name="q5" >Mastication<br>
+    <input type="radio" name="q5" id="corrected5">Digestion<br>
+    <input type="radio" name="q5" >Peristalsis<br>
+    <input type="radio" name="q5">Diffusion
+    </fieldset>
+    <button onClick="Check()">Submit</button>
+    </form> 
+</body>
+</html>
