@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathematical-mcq</title>
+    <script>
+        function Check(){
+            var x=0;
+            if(document.getElementById('corrected1').checked)
+            {
+                x++;
+            }
+            if(document.getElementById('corrected2').checked){
+                x++;
+            }
+            if(document.getElementById('corrected3').checked){
+                x++;
+            }
+            if(document.getElementById('corrected4').checked){
+                x++;
+            }
+            if(document.getElementById('corrected5').checked){
+                x++;
+            }
+            document.write("your score is:"+x);
+        }
+    </script>
+</head>
+<body>
+    <h1>Maths quiz</h1>
+    <h2>Simple Equations</h2>
+    <form action="" name="frm">
+    <fieldset>
+        <p>1.A line that intersects two or more lines at distinct points is called</p>
+        <input type="radio" name="q1" >parallel<br>
+        <input type="radio" name="q1" id="corrected1"> transversal<br>
+        <input type="radio" name="q1"> intersecting<br>
+        <input type="radio" name="q1">None of those
+        </fieldset>
+    <fieldset>
+        <p>2. What happens to the measurement of an angle after the extension of its arms?</p>
+        <input type="radio" name="q2" >Doubles<br>
+        <input type="radio" name="q2" > Triples<br>
+        <input type="radio" name="q2" id="corrected2">Remains the same  <br>
+        <input type="radio" name="q2">Cannot be said
+    </fieldset>
+    <fieldset>
+        <p>3.Find the angle, which is equal to its supplement.</p>
+        <input type="radio" name="q3" >60°<br>
+        <input type="radio" name="q3" id="corrected3"> 90°<br>
+        <input type="radio" name="q3"> 120°<br>
+        <input type="radio" name="q3">30°
+    </fieldset>
+    <fieldset>
+        <p>4.What is the supplement of 105° </p>
+        <input type="radio" name="q4" >65°<br>
+        <input type="radio" name="q4" id="corrected4">75°<br>
+        <input type="radio" name="q4"  >85°<br>
+        <input type="radio" name="q4"> 95°
+    </fieldset>
+    <fieldset>
+    <p>5.What do we call an angle whose measurement is exactly equal to 0o? </p>
+    <input type="radio" name="q5" >  An obtuse angle <br>
+    <input type="radio" name="q5" > A straight angle<br>
+    <input type="radio" name="q5" id="corrected5"> A zero angle <br>
+    <input type="radio" name="q5"> A right angle
+    </fieldset>
+    <button onClick="Check()">Submit</button>
+    </form> 
+</body>
+</html>

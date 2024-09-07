@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathematical-mcq</title>
+    <script>
+        function Check(){
+            var x=0;
+            if(document.getElementById('corrected1').checked)
+            {
+                x++;
+            }
+            if(document.getElementById('corrected2').checked){
+                x++;
+            }
+            if(document.getElementById('corrected3').checked){
+                x++;
+            }
+            if(document.getElementById('corrected4').checked){
+                x++;
+            }
+            if(document.getElementById('corrected5').checked){
+                x++;
+            }
+            document.write("your score is:"+x);
+        }
+    </script>
+</head>
+<body>
+    <h1>Maths quiz</h1>
+    <h2>Simple Equations</h2>
+    <form action="" name="frm">
+    <fieldset>
+        <p>1.Write the statements “Seven times a number plus 7 gets you 77”in the form of equations:</p>
+        <input type="radio" name="q1" id="corrected1">7x + 7 = 77<br>
+        <input type="radio" name="q1" >7x - 7 = 77<br>
+        <input type="radio" name="q1">7x + 6 = 66<br>
+        <input type="radio" name="q1">None of those
+        </fieldset>
+    <fieldset>
+        <p>2.Which is a solution of the equation 4x - 3 = 13?</p>
+        <input type="radio" name="q2" > x = 5<br>
+        <input type="radio" name="q2" > x = 3<br>
+        <input type="radio" name="q2" id="corrected2">x = 4<br>
+        <input type="radio" name="q2">None of these
+    </fieldset>
+    <fieldset>
+        <p>3. The solution of the equation 20m/3 = 40 is m =</p>
+        <input type="radio" name="q3" >5<br>
+        <input type="radio" name="q3" id="corrected3">6<br>
+        <input type="radio" name="q3">7<br>
+        <input type="radio" name="q3">None of these
+    </fieldset>
+    <fieldset>
+        <p>4.Write the statements “If you take away 6 from 6 time a number, you get 60”in the form of equations:</p>
+        <input type="radio" name="q4" >6x + 6 = 60<br>
+        <input type="radio" name="q4">6x - 5 = 60 <br>
+        <input type="radio" name="q4" id="corrected4" > 6x - 6 = 60<br>
+        <input type="radio" name="q4">None of these
+    </fieldset>
+    <fieldset>
+    <p>5.Write the statement “p multiplied by 16” in the form of expression.</p>
+    <input type="radio" name="q5" id="corrected5">  16p <br>
+    <input type="radio" name="q5" > p + 16<br>
+    <input type="radio" name="q5" > p - 16<br>
+    <input type="radio" name="q5"> 16 - p
+    </fieldset>
+    <button onClick="Check()">Submit</button>
+    </form> 
+</body>
+</html>
