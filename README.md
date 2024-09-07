@@ -5,4 +5,4 @@ Apoorv Gupta,
 Aditya Gogoi,
 Sahaj Maurya,
 Devanand,
-Devadatan
+Devadathan
