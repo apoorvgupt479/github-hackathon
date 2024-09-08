@@ -1,0 +1,43 @@
+.subjectOptions {
+    background-color: #000000;
+    display: inline-block;
+    /* background-color: #000000; */
+    margin-left: 10px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 6px;
+
+}
+
+.subjectText {
+    height: 190px;
+    width: 150px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    border-radius: 6px;
+
+}
+body{
+
+    background-color: black;
+    color: white;
+}
+.icons{
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.button1{
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.github{
+    margin-left: 40px;
+    background-color: wh;
+}
+.linkd{
+    margin-left: 20px;
+}

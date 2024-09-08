@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathematical-mcq</title>
+    <script>
+        function Check() {
+            var x = 0;
+            if (document.getElementById('corrected1').checked) {
+                x++;
+            }
+            if (document.getElementById('corrected2').checked) {
+                x++;
+            }
+            if (document.getElementById('corrected3').checked) {
+                x++;
+            }
+            if (document.getElementById('corrected4').checked) {
+                x++;
+            }
+            if (document.getElementById('corrected5').checked) {
+                x++;
+            }
+            document.write("your score is:" + x);
+        }
+    </script>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <h1>Maths quiz</h1>
+    <h2 style="margin-left: 40.5%;">Data handling</h2>
+    <form action="" name="frm">
+        <fieldset>
+            <p>1.On which day is the number of tourists minimum?</p>
+            <input type="radio" name="q1" id="corrected1">Friday<br>
+            <input type="radio" name="q1">Monday<br>
+            <input type="radio" name="q1">Thursday<br>
+            <input type="radio" name="q1">Friday
+        </fieldset>
+        <fieldset>
+            <p>2.The mean weight of 100 students in a class is 46 kg. The mean weight of boys is 50 and of girls is 40
+                kg. Therefore, the number of boys is:</p>
+            <input type="radio" name="q2"> 50<br>
+            <input type="radio" name="q2" id="corrected2">60<br>
+            <input type="radio" name="q2">70<br>
+            <input type="radio" name="q2">65
+        </fieldset>
+        <fieldset>
+            <p>3.The number of times an observation occurs in a data is called its</p>
+            <input type="radio" name="q3">Range<br>
+            <input type="radio" name="q3">Raw data<br>
+            <input type="radio" name="q3">Interval<br>
+            <input type="radio" name="q3" id="corrected3">Frequancy
+        </fieldset>
+        <fieldset>
+            <p>4.The mean of five numbers is 27. If one of the numbers is excluded, the mean gets reduced by 2. What is
+                the excluded number?</p>
+            <input type="radio" name="q4" id="corrected4">35<br>
+            <input type="radio" name="q4"> 27 <br>
+            <input type="radio" name="q4"> 25<br>
+            <input type="radio" name="q4"> 40
+        </fieldset>
+        <fieldset>
+            <p>5.The arithmetic mean of five given numbers is 85. What is their sum?</p>
+            <input type="radio" name="q5" id="corrected5"> 425 <br>
+            <input type="radio" name="q5"> 85<br>
+            <input type="radio" name="q5"> A number between 85 and 425<br>
+            <input type="radio" name="q5"> A number greater than 500
+        </fieldset>
+        <button onClick="Check()">Submit</button>
+    </form>
+</body>
+
+</html>

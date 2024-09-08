@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="product-name">LearnHub</h1>
+            <ul class="navigation">
+                <li class="navigation-item"><a href="#" class="navigation-text">Home</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-text">About Us</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-text">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="optionSubjects">
+            <h3>Subjects</h3>
+            <ul>
+            <li>
+                <div class="maths">
+                <button class="clickb" onclick="toggleDetails('chapterMaths')">Maths</button>
+                    <details id="chapterMaths">
+                        <summary></summary>
+                        <ul type="*">
+                            <li><button style="margin-left:20px ;" class="buttonChapter">Integers</button><br></li>
+                            <li><button style="margin-left:20px ;" class="buttonChapter">Fractions and Decimals</button><br></li>
+                            <li><button style="margin-left:20px ;" class="buttonChapter">Data Handling</button><br></li>
+                            <li><button style="margin-left:20px ;" class="buttonChapter">Linear Equations</button><br></li>
+                            <li><button style="margin-left:20px ;" class="buttonChapter">Sets</button><br></li>
+                            <li><button style="margin-left:20px ;" class="buttonChapter">Probability</button></li>
+                        </ul>
+                    </details>
+                </div>
+            </li>
+            <li>
+                <div class="science">
+                    <button class="clickb" onclick="toggleDetails('chapterScience')">Science</button>
+                    <details id="chapterScience">
+                        <summary></summary>
+                        <ul type="*">
+                        <li><button style="margin-left:20px ;" class="buttonChapter">Acid Bases and Salts</button></li>
+                        <li><button style="margin-left:20px ;" class="buttonChapter">Metals and Non Metals</button></li>
+                        <li><button style="margin-left:20px ;" class="buttonChapter">Life Processes</button></li>
+                        <li><button style="margin-left:20px ;" class="buttonChapter">Our Environment</button></li>
+                        <li><button style="margin-left:20px ;" class="buttonChapter">Sources of Energy </button></li>
+                        </ul>
+                    </details>
+                </div>
+            </li>
+            </ul>
+        </div>
+        <div class="quizTest">
+            <h3>Quiz</h3>
+            <ul>
+                <li>
+                    <div class="maths">
+                        <button class="clickb" onclick="toggleDetails('mquiz')">Maths-Quiz</button>
+                        <details id="mquiz">
+                            <summary></summary>
+                            <ul type="*">
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Integers-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Fractions and Decimals-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Data Handling-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Lines and Angles-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Simple Equations-Quiz</button><br></li>
+                            </ul>
+                        </details>
+                    </div>
+                </li>
+                <li>
+                    <div class="science">
+                        <button class="clickb" onclick="toggleDetails('squiz')">Science-Quiz</button>
+                        <details id="squiz">
+                            <summary></summary>
+                            <ul type="*">
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Nutrition In Plants-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Nutrition In Animals-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Fibre To Fabric-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Eat-Quiz</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Acids,Bases and Salts-Quiz</button><br></li>
+                            </ul>
+                        </details>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="games">
+            <h3>Subjects</h3>
+            <ul>
+                <li>
+                    <div class="game">
+                        <button class="clickb" onclick="toggleDetails('game')">Games</button>
+                        <details id="game">
+                            <summary></summary>
+                            <ul type="*">
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Tic-Tac-Toe</button><br></li>
+                                <li><button style="margin-left:20px ;" class="buttonChapter">Memory Game</button><br></li>
+                            </ul>
+                        </details>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="verticalWrapper">
+            <div class="quote quote1"> "Mathematics is the queen of the sciences." <br><br>-Carl Friedrich Gauss:</div>
+            <div class="quote quote2">"If I have seen further, it is by standing on the shoulders of giants."<br>-Isaac Newton</div>
+            <div class="quote quote3">"Pure mathematics is, in its way, the poetry of logical ideas."<br>-Albert Einstein</div>
+            <div class="quote quote4">The art and science of asking questions is the source of all knowledge. <br>-William Blake</div>
+            <div class="quote quote5">The Universe is under no obligation to make sense to you. <br>-Neil deGrasse Tyson</div>
+            <div class="quote quote6">“Everything is theoretically impossible, until it is done.” <br>-Robert A. Heinlein.</div>
+            <!--  -->
+        </div>
+        <div class="verticalWrapper2">
+            <div class="iconV icon1"> <img class="imageV" src="icons/cone.png" alt=""></div>
+            <div class="iconV icon2"><img class="imageV" src="icons/pi.png" alt=""></div>
+            <div class="iconV icon3"><img class="imageV" src="icons/proton.png" alt=""></div>
+            <div class="iconV icon4"><img class="imageV" src="icons/read.png" alt=""></div>
+            <div class="iconV icon5"><img class="imageV" src="icons/summaztion.png" alt=""></div>
+            <div class="iconV icon6"><img class="imageV" src="icons/maths.png" alt=""></div>
+            <div class="iconV icon6"><img class="imageV" src="icons/tube.png" alt=""></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+        <ul class="policy-container">
+            <li class="policy-item"><a href="#" class="policy-text">Privacy Policy</a></li>
+            <li class="policy-item"><a href="#" class="policy-text">Terms of Use</a></li>
+        </ul>
+    </footer>
+    <script>
+          function toggleDetails(detailsId) {
+
+                const detailsElement = document.getElementById(detailsId);
+
+                detailsElement.open = !detailsElement.open;
+
+            }
+    </script>
+</body>
+</html>
